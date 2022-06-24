@@ -1,0 +1,13 @@
+.input-block-level log ng-pristine ng-valid ng-touched {
+  
+  $border: 5px;
+  background-clip: padding-box;
+  border: $border solid;
+  border-radius: 2px;
+  
+  &:before {
+    border-radius: inherit;
+    margin: -$border;
+  }
+  
+}
